@@ -13,7 +13,7 @@
 		B8E8E1F51DAF700D00A2C6BF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8E8E1ED1DAF700D00A2C6BF /* Info.plist */; };
 		B8E8E1F61DAF700D00A2C6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1EE1DAF700D00A2C6BF /* main.m */; };
 		B8E8E1F71DAF700D00A2C6BF /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1F01DAF700D00A2C6BF /* TTAppDelegate.m */; };
-		B8E8E1F81DAF700D00A2C6BF /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1F21DAF700D00A2C6BF /* TTBaseViewController.m */; };
+		B8E8E1FC1DAF724A00A2C6BF /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1FB1DAF724A00A2C6BF /* TTBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		B8E8E1EE1DAF700D00A2C6BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8E8E1EF1DAF700D00A2C6BF /* TTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
 		B8E8E1F01DAF700D00A2C6BF /* TTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
-		B8E8E1F11DAF700D00A2C6BF /* TTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseViewController.h; sourceTree = "<group>"; };
-		B8E8E1F21DAF700D00A2C6BF /* TTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseViewController.m; sourceTree = "<group>"; };
+		B8E8E1FA1DAF724A00A2C6BF /* TTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseViewController.h; sourceTree = "<group>"; };
+		B8E8E1FB1DAF724A00A2C6BF /* TTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,7 @@
 		B8E8E1AD1DAF2B6500A2C6BF /* HeadlinesToday */ = {
 			isa = PBXGroup;
 			children = (
+				B8E8E1F91DAF724A00A2C6BF /* BaseClasses */,
 				B8E8E1E81DAF700D00A2C6BF /* AboutMe */,
 				B8E8E1E91DAF700D00A2C6BF /* Categories */,
 				B8E8E1EA1DAF700D00A2C6BF /* Concern */,
@@ -169,8 +170,6 @@
 			children = (
 				B8E8E1EF1DAF700D00A2C6BF /* TTAppDelegate.h */,
 				B8E8E1F01DAF700D00A2C6BF /* TTAppDelegate.m */,
-				B8E8E1F11DAF700D00A2C6BF /* TTBaseViewController.h */,
-				B8E8E1F21DAF700D00A2C6BF /* TTBaseViewController.m */,
 				B8E8E1ED1DAF700D00A2C6BF /* Info.plist */,
 				B8E8E1EE1DAF700D00A2C6BF /* main.m */,
 			);
@@ -189,6 +188,15 @@
 			children = (
 			);
 			path = Videos;
+			sourceTree = "<group>";
+		};
+		B8E8E1F91DAF724A00A2C6BF /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B8E8E1FA1DAF724A00A2C6BF /* TTBaseViewController.h */,
+				B8E8E1FB1DAF724A00A2C6BF /* TTBaseViewController.m */,
+			);
+			path = BaseClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,7 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E8E1F81DAF700D00A2C6BF /* TTBaseViewController.m in Sources */,
+				B8E8E1FC1DAF724A00A2C6BF /* TTBaseViewController.m in Sources */,
 				B8E8E1F71DAF700D00A2C6BF /* TTAppDelegate.m in Sources */,
 				B8E8E1F61DAF700D00A2C6BF /* main.m in Sources */,
 			);
