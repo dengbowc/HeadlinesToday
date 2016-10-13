@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8E8E1B01DAF2B6500A2C6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1AF1DAF2B6500A2C6BF /* main.m */; };
 		B8E8E1BB1DAF2B6500A2C6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E8E1BA1DAF2B6500A2C6BF /* Assets.xcassets */; };
 		B8E8E1C91DAF2B6500A2C6BF /* HeadlinesTodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1C81DAF2B6500A2C6BF /* HeadlinesTodayTests.m */; };
 		B8E8E1D41DAF2B6500A2C6BF /* HeadlinesTodayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1D31DAF2B6500A2C6BF /* HeadlinesTodayUITests.m */; };
-		B8E8E1E31DAF2C3C00A2C6BF /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1E21DAF2C3C00A2C6BF /* TTAppDelegate.m */; };
-		B8E8E1E71DAF397F00A2C6BF /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1E61DAF397F00A2C6BF /* TTBaseViewController.m */; };
+		B8E8E1F51DAF700D00A2C6BF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8E8E1ED1DAF700D00A2C6BF /* Info.plist */; };
+		B8E8E1F61DAF700D00A2C6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1EE1DAF700D00A2C6BF /* main.m */; };
+		B8E8E1F71DAF700D00A2C6BF /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1F01DAF700D00A2C6BF /* TTAppDelegate.m */; };
+		B8E8E1F81DAF700D00A2C6BF /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1F21DAF700D00A2C6BF /* TTBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,19 @@
 
 /* Begin PBXFileReference section */
 		B8E8E1AB1DAF2B6500A2C6BF /* HeadlinesToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadlinesToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8E8E1AF1DAF2B6500A2C6BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8E8E1BA1DAF2B6500A2C6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B8E8E1BF1DAF2B6500A2C6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8E8E1C41DAF2B6500A2C6BF /* HeadlinesTodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadlinesTodayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E8E1C81DAF2B6500A2C6BF /* HeadlinesTodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadlinesTodayTests.m; sourceTree = "<group>"; };
 		B8E8E1CA1DAF2B6500A2C6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8E8E1CF1DAF2B6500A2C6BF /* HeadlinesTodayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadlinesTodayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E8E1D31DAF2B6500A2C6BF /* HeadlinesTodayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadlinesTodayUITests.m; sourceTree = "<group>"; };
 		B8E8E1D51DAF2B6500A2C6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8E8E1E11DAF2C3C00A2C6BF /* TTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
-		B8E8E1E21DAF2C3C00A2C6BF /* TTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
-		B8E8E1E51DAF397F00A2C6BF /* TTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseViewController.h; sourceTree = "<group>"; };
-		B8E8E1E61DAF397F00A2C6BF /* TTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseViewController.m; sourceTree = "<group>"; };
+		B8E8E1ED1DAF700D00A2C6BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E8E1EE1DAF700D00A2C6BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8E8E1EF1DAF700D00A2C6BF /* TTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		B8E8E1F01DAF700D00A2C6BF /* TTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		B8E8E1F11DAF700D00A2C6BF /* TTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseViewController.h; sourceTree = "<group>"; };
+		B8E8E1F21DAF700D00A2C6BF /* TTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +98,13 @@
 		B8E8E1AD1DAF2B6500A2C6BF /* HeadlinesToday */ = {
 			isa = PBXGroup;
 			children = (
-				B8E8E1E11DAF2C3C00A2C6BF /* TTAppDelegate.h */,
-				B8E8E1E21DAF2C3C00A2C6BF /* TTAppDelegate.m */,
-				B8E8E1E51DAF397F00A2C6BF /* TTBaseViewController.h */,
-				B8E8E1E61DAF397F00A2C6BF /* TTBaseViewController.m */,
+				B8E8E1E81DAF700D00A2C6BF /* AboutMe */,
+				B8E8E1E91DAF700D00A2C6BF /* Categories */,
+				B8E8E1EA1DAF700D00A2C6BF /* Concern */,
+				B8E8E1EB1DAF700D00A2C6BF /* Main */,
+				B8E8E1EC1DAF700D00A2C6BF /* Others */,
+				B8E8E1F31DAF700D00A2C6BF /* Tools */,
+				B8E8E1F41DAF700D00A2C6BF /* Videos */,
 				B8E8E1AE1DAF2B6500A2C6BF /* Supporting Files */,
 			);
 			path = HeadlinesToday;
@@ -110,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				B8E8E1BA1DAF2B6500A2C6BF /* Assets.xcassets */,
-				B8E8E1BF1DAF2B6500A2C6BF /* Info.plist */,
-				B8E8E1AF1DAF2B6500A2C6BF /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,6 +134,61 @@
 				B8E8E1D51DAF2B6500A2C6BF /* Info.plist */,
 			);
 			path = HeadlinesTodayUITests;
+			sourceTree = "<group>";
+		};
+		B8E8E1E81DAF700D00A2C6BF /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		B8E8E1E91DAF700D00A2C6BF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B8E8E1EA1DAF700D00A2C6BF /* Concern */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Concern;
+			sourceTree = "<group>";
+		};
+		B8E8E1EB1DAF700D00A2C6BF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B8E8E1EC1DAF700D00A2C6BF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B8E8E1EF1DAF700D00A2C6BF /* TTAppDelegate.h */,
+				B8E8E1F01DAF700D00A2C6BF /* TTAppDelegate.m */,
+				B8E8E1F11DAF700D00A2C6BF /* TTBaseViewController.h */,
+				B8E8E1F21DAF700D00A2C6BF /* TTBaseViewController.m */,
+				B8E8E1ED1DAF700D00A2C6BF /* Info.plist */,
+				B8E8E1EE1DAF700D00A2C6BF /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B8E8E1F31DAF700D00A2C6BF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B8E8E1F41DAF700D00A2C6BF /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E8E1F51DAF700D00A2C6BF /* Info.plist in Resources */,
 				B8E8E1BB1DAF2B6500A2C6BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +323,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E8E1E71DAF397F00A2C6BF /* TTBaseViewController.m in Sources */,
-				B8E8E1E31DAF2C3C00A2C6BF /* TTAppDelegate.m in Sources */,
-				B8E8E1B01DAF2B6500A2C6BF /* main.m in Sources */,
+				B8E8E1F81DAF700D00A2C6BF /* TTBaseViewController.m in Sources */,
+				B8E8E1F71DAF700D00A2C6BF /* TTAppDelegate.m in Sources */,
+				B8E8E1F61DAF700D00A2C6BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = HeadlinesToday/Info.plist;
+				INFOPLIST_FILE = HeadlinesToday/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.faker.toutiao;
@@ -409,7 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = HeadlinesToday/Info.plist;
+				INFOPLIST_FILE = HeadlinesToday/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.faker.toutiao;
@@ -482,6 +540,7 @@
 				B8E8E1DA1DAF2B6500A2C6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8E8E1DB1DAF2B6500A2C6BF /* Build configuration list for PBXNativeTarget "HeadlinesTodayTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +549,7 @@
 				B8E8E1DD1DAF2B6500A2C6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8E8E1DE1DAF2B6500A2C6BF /* Build configuration list for PBXNativeTarget "HeadlinesTodayUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +558,7 @@
 				B8E8E1E01DAF2B6500A2C6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
