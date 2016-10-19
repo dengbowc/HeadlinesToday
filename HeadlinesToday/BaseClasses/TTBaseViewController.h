@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTBaseViewController : UITableViewController
+@interface TTBaseViewController : UIViewController
 
 @end

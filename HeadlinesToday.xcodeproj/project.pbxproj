@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8551C8B1DB75E4900C2D72E /* TTTabControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8551C8A1DB75E4900C2D72E /* TTTabControlView.m */; };
 		B8E8E1BB1DAF2B6500A2C6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E8E1BA1DAF2B6500A2C6BF /* Assets.xcassets */; };
 		B8E8E1C91DAF2B6500A2C6BF /* HeadlinesTodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1C81DAF2B6500A2C6BF /* HeadlinesTodayTests.m */; };
 		B8E8E1D41DAF2B6500A2C6BF /* HeadlinesTodayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E1D31DAF2B6500A2C6BF /* HeadlinesTodayUITests.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8551C891DB75E4900C2D72E /* TTTabControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTabControlView.h; sourceTree = "<group>"; };
+		B8551C8A1DB75E4900C2D72E /* TTTabControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTabControlView.m; sourceTree = "<group>"; };
 		B8E8E1AB1DAF2B6500A2C6BF /* HeadlinesToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadlinesToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E8E1BA1DAF2B6500A2C6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8E8E1C41DAF2B6500A2C6BF /* HeadlinesTodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadlinesTodayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,14 +101,14 @@
 		B8E8E1AD1DAF2B6500A2C6BF /* HeadlinesToday */ = {
 			isa = PBXGroup;
 			children = (
-				B8E8E1F91DAF724A00A2C6BF /* BaseClasses */,
-				B8E8E1E81DAF700D00A2C6BF /* AboutMe */,
-				B8E8E1E91DAF700D00A2C6BF /* Categories */,
-				B8E8E1EA1DAF700D00A2C6BF /* Concern */,
 				B8E8E1EB1DAF700D00A2C6BF /* Main */,
+				B8E8E1F41DAF700D00A2C6BF /* Videos */,
+				B8E8E1EA1DAF700D00A2C6BF /* Concern */,
+				B8E8E1E81DAF700D00A2C6BF /* AboutMe */,
+				B8E8E1F91DAF724A00A2C6BF /* BaseClasses */,
+				B8E8E1E91DAF700D00A2C6BF /* Categories */,
 				B8E8E1EC1DAF700D00A2C6BF /* Others */,
 				B8E8E1F31DAF700D00A2C6BF /* Tools */,
-				B8E8E1F41DAF700D00A2C6BF /* Videos */,
 				B8E8E1AE1DAF2B6500A2C6BF /* Supporting Files */,
 			);
 			path = HeadlinesToday;
@@ -161,6 +164,9 @@
 		B8E8E1EB1DAF700D00A2C6BF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B8E8E1FE1DAF734F00A2C6BF /* Models */,
+				B8E8E1FF1DAF734F00A2C6BF /* Views */,
+				B8E8E1FD1DAF734F00A2C6BF /* Controllers */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -197,6 +203,29 @@
 				B8E8E1FB1DAF724A00A2C6BF /* TTBaseViewController.m */,
 			);
 			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		B8E8E1FD1DAF734F00A2C6BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B8E8E1FE1DAF734F00A2C6BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8E8E1FF1DAF734F00A2C6BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8551C891DB75E4900C2D72E /* TTTabControlView.h */,
+				B8551C8A1DB75E4900C2D72E /* TTTabControlView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8551C8B1DB75E4900C2D72E /* TTTabControlView.m in Sources */,
 				B8E8E1FC1DAF724A00A2C6BF /* TTBaseViewController.m in Sources */,
 				B8E8E1F71DAF700D00A2C6BF /* TTAppDelegate.m in Sources */,
 				B8E8E1F61DAF700D00A2C6BF /* main.m in Sources */,
