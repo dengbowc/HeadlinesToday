@@ -1,0 +1,22 @@
+//
+//  TTHeader.pch
+//  HeadlinesToday
+//
+//  Created by 瑶波波 on 16/10/19.
+//  Copyright © 2016年 dengbowc. All rights reserved.
+//
+
+#ifndef TTHeader_pch
+#define TTHeader_pch
+#ifdef DEBUG
+#define TTLog(...) NSLog(__VA_ARGS__)
+#else
+#define TTLog(...)
+#endif
+
+#import <UIView_Positioning/UIView+Positioning.h>
+#import <Macros.h>
+#import <YYModel/YYModel.h>
+#import <Masonry/Masonry.h>
+
+#endif /* TTHeader_pch */
